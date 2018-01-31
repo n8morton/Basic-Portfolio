@@ -1,0 +1,74 @@
+header {
+    background-color: teal;
+    color: white;
+    padding: 0px 30px 0px 30px;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+#div1 {
+    background-color: white;
+}
+
+nav {
+    float: left;
+    margin-left: 100px 
+    
+
+    
+}
+
+.nav-links{
+    text-decoration: none;
+    position: relative;
+    left: 600px;
+    top: 25px;
+    font-weight: bold;
+    color: #666;
+    padding-right: 12px;
+    padding-left: 10px;
+}
+
+#about-link{
+    border-right: 1px solid #cac9c9;
+}
+
+#portfolio-link{
+    border-right: 1px solid #cac9c9;
+}
+
+hr { 
+    width:100%; height:1px; background: #888
+}
+
+body{
+    background-color: bisque;
+}
+
+
+#about-me{
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+#contact-me{
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    left: 800px;
+    top: -575px;
+    border: 1px solid #888;
+   
+   
+}
+
+.social-media{
+    width: 64px;
+    height: 64px;
+}
