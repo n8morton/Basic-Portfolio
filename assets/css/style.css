@@ -1,6 +1,7 @@
 
 /* styles for all three pages */
 
+
 #div1{
     background-color: white;
     position: relative;
@@ -23,7 +24,7 @@ nav{
     position: absolute;
     top: 22px;
     left: 921px;
-    width: 360px;
+    width: 342px;
     height: 73px;
     background-color: white;
     border-bottom: 1px solid #888;
@@ -48,20 +49,13 @@ nav{
 }
 
 body{
-    background-color: bisque;
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    
     margin: 0;
     width: 932px;
 }
 
-#connect{
-    background-color: white;
-    width: 200px;
-    padding: 5px 20px 39px 20px;
-    position: relative;
-    left: 913px;
-    top: -862px;
-    border: 1px solid #888;
-}
 
 #connect h2{
     border-bottom: 1px solid #888;
@@ -73,6 +67,16 @@ body{
     height: 64px;
     position: relative;
     top: 9px    
+}
+
+footer{
+    background-color: #666;
+    height: 50px;
+    width: 1263px;
+    border-top: 10px solid teal;
+    color: lightgray;
+    text-align: center;
+    padding-top: 30px;
 }
 
 /* styles for about me section */
@@ -108,12 +112,22 @@ body{
     line-height: 1.75;
 }
 
+.connecta{
+    background-color: white;
+    width: 200px;
+    padding: 5px 20px 39px 20px;
+    position: relative;
+    left: 913px;
+    top: -477px;
+    border: 1px solid #888;
+}
+
 /* styles for portfolio section  */
 
 #div2p{
     background-color: white;
     width: 731px;
-    height: 840px;
+    height: 900px;
     padding: 15px 20px 25px 30px;
     position: relative;
     left: 100px;
@@ -137,6 +151,43 @@ body{
     padding-bottom: 30px;
 }
 
+.port{
+    background-color: teal;
+    width: 350px;
+    height:30px; 
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20pt
+}
+
+#port1{
+    position: relative;
+    bottom: 698px; 
+}
+
+#port2{
+    position: relative;
+    bottom: 775px; 
+    left: 379px;
+}
+
+#port3{
+    position: relative;
+    bottom: 568px; 
+}
+
+#port4{
+    position: relative;
+    bottom: 644px;
+    left: 379px;
+}
+
+#port5{
+    position: relative;
+    bottom: 438px; 
+}
 /* styles for contact section */
 
 #div2c{
@@ -155,4 +206,24 @@ body{
     color: teal;
     border-bottom: 1px solid #888;
     padding-bottom: 10px;
+}
+
+.connectp{
+    background-color: white;
+    width: 200px;
+    padding: 5px 20px 39px 20px;
+    position: relative;
+    left: 913px;
+    top: -922px;
+    border: 1px solid #888;
+}
+
+.connectc{
+    background-color: white;
+    width: 200px;
+    padding: 5px 20px 39px 20px;
+    position: relative;
+    left: 913px;
+    top: -477px;
+    border: 1px solid #888;
 }
